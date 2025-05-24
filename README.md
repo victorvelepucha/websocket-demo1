@@ -27,7 +27,11 @@ npm install express ws
 
 ```bash
 npm run dev
+```
+```bash
 npm start
+```
+```bash
 node .\src\index.js
 ```
 
