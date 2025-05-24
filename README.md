@@ -4,7 +4,7 @@ Este proyecto es una demostración simple de un chat en tiempo real usando WebSo
 
 ## Estructura del proyecto
 
-- `index.js`: Servidor Node.js que sirve archivos estáticos y gestiona la comunicación WebSocket.
+- `src/index.js`: Servidor Node.js que sirve archivos estáticos y gestiona la comunicación WebSocket.
 - `public/index.html`: Interfaz web del chat, implementada en HTML y JavaScript.
 
 ## Dependencias
@@ -23,10 +23,12 @@ npm install express ws
 
 ## Ejecución
 
-1. Inicia el servidor ejecutando:
+1. Inicia el servidor ejecutando con estas alternativas:
 
 ```bash
-node index.js
+npm run dev
+npm start
+node .\src\index.js
 ```
 
 2. Abre tu navegador y accede a [http://localhost:3000](http://localhost:3000)
